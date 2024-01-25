@@ -1,7 +1,7 @@
 # Lua Nil to Null
 
 ## About
-This VS Code extension visually replaces 'nil' with 'null' in Lua files, improving readability without altering the file content.
+This VS Code extension visually replaces 'nil' with 'null' in Lua files, improving readability without altering the file content. Ahh and yes I indeed regret making this and its just a joke that smh works.
 
 ## Installation
 Install directly from the VS Code Extensions Marketplace.

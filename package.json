@@ -2,6 +2,10 @@
   "name": "lua-nil-to-null",
   "displayName": "Lua Nil to Null",
   "description": "Visually replaces 'nil' with 'null' in Lua files.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Entytaiment25/lua-nil-to-null.git"
+  },
   "version": "0.0.1",
   "publisher": "entytaiment25",
   "engines": {
@@ -13,12 +17,18 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "languages": [{
+    "languages": [
+      {
         "id": "lua",
-        "aliases": ["Lua"],
-        "extensions": [".lua"],
+        "aliases": [
+          "Lua"
+        ],
+        "extensions": [
+          ".lua"
+        ],
         "configuration": "./language-configuration.json"
-    }]
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
